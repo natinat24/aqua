@@ -10,7 +10,7 @@
     *{margin: 0;padding: 0;border:none;background: none;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
     body{font-family: 'Open Sans', sans-serif;color: #333;font-size: 10px} li{list-style: none;}
     .container{width: 100%; padding: 0 1em}
-    .line{display: inline-block;}.middle{vertical-align:middle}.bottom{vertical-align: bottom}.top{vertical-align: top }
+    .line{display: inline-block;}.block{display: block;}.middle{vertical-align:middle}.bottom{vertical-align: bottom}.top{vertical-align: top }
     .right, .left, .center{text-align: center}
     .dark{font-weight: 700}.normal{font-weight: 400}
     .relative{position:relative}
@@ -30,10 +30,16 @@
     .inicio{padding: 5em 0; background-image: url('img/fondo.jpg'); background-size: cover; background-position: -2em center }
     body{padding-top:3.37em;}
     .allrights{padding: 2em 0;}
+    .charac{padding: .5em;}
+    .itemPadding{padding-left: 5em;}
+    .itemPadding2{padding-left: 8em;}
+    .itemPadding3{padding-left: 15em;}
+    .separate{margin: 1em 0;}
 
     .bg-orange{background-color: #FDBC0D;}
     .bg-gray{background-color: #f2f2f2}
     .bg-green{background-color: #00bca0;}
+    .bg-aqua{background-color: #00bca0 }
     a{text-decoration:none; color:#333; display: inline-block;}
 
     .fs-xxlarge{font-size: 2.8em}
@@ -50,13 +56,14 @@
 
     .logo{height: 4.5em;}
     .icon{height: 1.2em;}
+    .item{height: 4em;}
  
     @media(min-width:941px){
         .container{width: 76%;margin-left: 12%}
-        .columns3{width: 32.5%;display: inline-block;} .columns2{ width: 48.5%;display: inline-block;}.columns4{width: 24.5%;display: inline-block;}
+        .columns3{width: 32.5%;display: inline-block; padding: 1em;} .columns2{ width: 48.5%;display: inline-block;}.columns4{width: 24.5%;display: inline-block;}
         .right{text-align: right}.center{text-align: center}.left{text-align: left}
 
-        .w90{width: 90%}.w80{width: 80%}.w70{width: 70%}.w60{width: 60%}.w50{width: 50%}.w40{width: 40%}.w30{width: 30%}.w20{width: 20%}.w10{width: 10%}.w0{width: initial}
+        .w90{width: 90%}.w80{width: 80%}.w70{width: 70%}.w60{width: 60%}.w50{width: 50%}.w40{width: 40%}.w30{width: 30%} .w35{width: 35%}.w20{width: 20%}.w10{width: 10%}.w0{width: initial}
         .pc{display: inline-block;}
         .mobile{display: none}
         .section{padding:10em 0;}
@@ -118,6 +125,145 @@
                 </li>
             </ul>
         </div>
+  <div id="Contact-Bar" class="bg-yellow fs-normal center mobile">
+      <a class="dark line" href="https://wa.me/573222459733?text=Hola,%20me%20interesa%20obtener%20más%20información%20de%20la%20licencia%20de%20conducción%20(A2%20Servicio%20Particular)"><img  class="line middle icon" src="img/whatsapp-b.png" alt="wa"> 322 245 9733</a>
+  </div>
+  <div id="Menu" class="menu center" >
+      <div class="columns2  middle left">
+          <img class="logo" src="img/logo.png" alt="logo">
+      </div>
+      <div class="columns2 right middle fs-normal pc" >
+          <ul> 
+                <li class="line separar">
+                    <a class="line middle" href="https://wa.me/573107727822?text=Hola,%20me%20interesa%20obtener%20más%20información%20acerca%20de%20los%20pases%20de%20conducción"text>
+                      <img  class="line middle icon" src="img/whatsapp.png" alt="wa">
+                      <p class="line middle dark c-blue">322 245 9733</p>
+                    </a>
+              </li>
+              <li class="line separar">
+                  <a class="line middle" href="tel:0317571135">
+                      <img class="line middle icon"src="img/telefono-logo.png" alt="telefonoFijo">
+                      <p class="line middle dark c-blue" >(1) 757 1135</p>
+                  </a>    
+              </li>
+          </ul>
+      </div>
+  </div>
+  <div id="Inicio" class="inicio">
+    <div class="container" >
+      <h1 class="fs-large left">vende</h1>
+      <ul>
+          <li class="principal-list left"><img class="list-icon line middle" src="img/cono.png" alt=""> <p class="fs-medium line middle"> Más de 8 años de experiencia  <p></p></li>
+          <li class="principal-list left"><img class="list-icon line middle" src="img/cono.png" alt=""> <p class="fs-medium line middle"> Clases teóricas en nuestras sedes <p></p></li>
+          <li class="principal-list left"><img class="list-icon line middle" src="img/cono.png" alt=""> <p class="fs-medium line middle"> Clases de domingo a domingo <p></p></li>
+          <li class="principal-list left"><img class="list-icon line middle" src="img/cono.png" alt=""> <p class="fs-medium line middle"> Pagos diferidos durante el curso <p></p></li>
+          <li class="principal-list main-button left">
+            <a class="buttom bg-yellow fs-normal" href="https://wa.me/573107727822?text=Hola,%20me%20interesa%20obtener%20más%20información%20de%20la%20licencia%20de%20conducción%20(A2%20Servicio%20Particular)"><img  class="line middle icon" src="img/whatsapp-b.png" alt="wa"> ¡Cotizar Ahora!</a>
+          </li>
+      </ul>
+    </div>    
+  </div>
+
+  <div id="characteristics" class="section container">
+    <h2 class="fs-large center">¿Cómo funciona?</h2>
+    <p class="fs-medium center separate">Al final de cada mes pagas solo <span class="dark">por cada contácto</span> que has recibido. Para poder vender tu producto o servicio necesitas una página web, ésta vale <span class="dark">$380.000 (Anuales)</span> e incluye:</p>
+    <ul class="fs-medium">
+      <li class="columns2 charac itemPadding">
+        <img class="item line middle" src="img/browser.png">
+        <p class="line middle">Página web optimizada para Google</p>
+      </li>
+      <li class="columns2 charac itemPadding2">
+        <img class="item line middle" src="img/internet.png">
+        <p class="line middle">Hosting y dominio</p>
+      </li>
+      <li class="columns2 charac itemPadding">
+        <img class="item line middle" src="img/search.png">
+        <p class="line middle">Estudio de mercados y estrategia digital</p>
+      </li>
+      <li class="columns2 charac itemPadding2">
+        <img class="item line middle" src="img/shopping.png">
+        <p class="line middle">Pagos virtuales para tus clientes</p>
+      </li>
+      <li class="columns2 charac itemPadding">
+        <img class="item line middle" src="img/html.png">
+        <p class="line middle">Campañas publicitarias en Google Ads</p>
+      </li>
+      <li class="columns2 charac itemPadding2">
+        <img class="item line middle" src="img/analytics.png">
+        <p class="line middle">3 Correos corporativos</p>
+      </li>
+    </ul>
+    <div class="center separate">
+      <a class="buttom bg-yellow fs-normal" href="https://wa.me/573107727822?text=Hola,%20me%20interesa%20obtener%20más%20información%20de%20la%20licencia%20de%20conducción%20(A2%20Servicio%20Particular)"><img  class="line middle icon" src="img/whatsapp-b.png" alt="wa"> ¡Obtener Plan!</a>
+    </div>
+  </div>  
+
+  <div id="accompaniment" class="bg-gray aside">
+    <h3 class="fs-large center separate">Acompañamiento</h3>
+    <div class="columns2 fs-medium middle itemPadding3">
+      <p>Reunión virtual mensual para: <br><br></p>
+      <ul>
+        <li><img class="icon line" src="img/correct.png"><p class="line">Analizar resultados</p></li>
+        <li><img class="icon line" src="img/correct.png"><p class="line">Planificar estrategias</p></li>
+        <li><img class="icon line" src="img/correct.png"><p class="line">Responder Inquietudes</p></li>
+      </ul>
+    </div>
+    <div class="columns2 center middle">
+      <img  class="w50" src="img/felipe.jpg">
+    </div>
+  </div>
+
+  <div  class="section" >
+    <div class="container center">
+      <h2 class="fs-large marginTC">Nuestros Clientes</h2>
+      <div class="columns3 fs-normal marginTC middle">
+          <img  class="w50" src="img/sahet.jpg" alt="sahet">
+      </div>
+      <div class="columns3 fs-normal marginTC middle">
+          <img  class="w35" src="img/elite.png" alt="elite">
+      </div>
+      <div class="columns3 fs-normal marginTC middle">
+          <img  class="w50"src="img/superlimpio.png" alt="superlimpio">
+      </div>
+      <div class="columns3 fs-normal marginTC middle">
+          <img class="w40"src="img/nannys.png" alt="nannys">
+      </div>
+      <div class="columns3 fs-normal marginTC middle">
+          <img  class="w40"src="img/bigbang.png" alt="bigbang">
+      </div> 
+      <div class="columns3 fs-normal marginTC middle">
+        <img  class="w40"src="img/marzuq.png" alt="marzuq">
+      </div> 
+    </div>    
+  </div>
+     
+  <div id="Footer" class="bg-aqua aside fs-normal">
+    <div class="columns3 center top ">
+      <h3>Sede</h3>
+      <ul>
+        <h4 class="dark">Carvajal</h4>
+        <li> <a name="Convertion" href="tel:3174298190"> Tel: 322 245 9733</a></li>
+        <li>Cll 37b sur # 68i-23 (Piso 1)</li>
+      </ul>
+    </div>
+    <div class="columns3 center top marginTC">
+      <h3>Expertos Google ads</h3>
+      <ul>
+        <li>Ofrecemos publicidad, incluimos tus anuncios en los resultados de las búsquedas que realizan las personas por internet</li>
+      </ul>
+    </div>
+    <div class="columns3 center top">
+        <h3>Horario de atención oficina</h3>
+        <ul>
+            <li>Lunes a Viernes de 8:00am - 5:30pm</li>
+            <li>Sábados de 8:00am - 5:30pm </li>
+        </ul>
+    </div>
+    <div class="center">
+        <img class="logo-footer w10 "  src="img/logo.png" alt="Logo">    
+    </div>
+      <p class="allrights center  fs-little"> Todos los derechos reservados aqua automovilistico © 2019 - Desarrollado por <a href="https://sahet.co/publicidad">sahet.co/publicidad</a></p>
+    </div>
   </div>
   <div class="section" >
     <h2 class="center fs-tittles">¿Comó se saca valor de cada contacto?</h2>
